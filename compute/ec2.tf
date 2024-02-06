@@ -3,6 +3,6 @@ resource "aws_instance" "instance" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "terragrunt-instance"
+    Name = "terragrunt-instance-1"
   }
 }
